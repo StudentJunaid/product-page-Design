@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 203, 203);
+    /* overflow: hidden; */
+}
+
+:root{
+    --red:#d01c28;
+    --gray:#2e2e2e;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 15px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+
+button{
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.Hero{
+    max-width: 80vw;
+    display: flex;
+    margin: 16px auto 0;
+    
+}
+
+.left{
+    width: 50%;
+}
+
+.left h1{
+  width: 60%;
+  line-height: 4vw;
+  text-align: start;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.left p{
+    width: 50%;
+    margin-top: 20px ;
+}
+
+.left .button{
+    margin-top: 20px ;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.button .btn-1{
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button .btn-2{
+    padding: 7px 15px;
+    outline: none;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.right{
+    width: 50%;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
